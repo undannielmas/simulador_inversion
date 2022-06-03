@@ -359,7 +359,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 500px) {
 
 
   .contenedor {

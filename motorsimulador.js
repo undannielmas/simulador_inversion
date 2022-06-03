@@ -144,7 +144,7 @@ function summation(){
 
     if ([inversion] > 499999 && [tiempo_inversion] == 18) {
         /*Precio de la inversion * ROI / Meses */
-        var suma_final = (inversion) * .22;
+        var suma_final = (inversion) * .225;
         var entero_final = suma_final.toFixed();
         var intComas_final = entero_final.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         console.log(intComas);

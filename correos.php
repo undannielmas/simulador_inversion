@@ -101,7 +101,7 @@ if($a > 9999999 && $b ==18){
 // Conversion al final
 
 if($a > 499999 && $b ==18){
-    $retornofinal = $a * .22;
+    $retornofinal = $a * .225;
     $retornofinal_formato_ingles = number_format($retornofinal);
 }
 
