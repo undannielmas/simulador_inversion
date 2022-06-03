@@ -192,7 +192,8 @@ $plantilla= ob_get_clean();
 
 <nav class="navbar">
     <!-- LOGO -->
-    <div class="logo"><a href="https://tamayocapital.com/"><img src="assets/tamayo-capital.png" alt="" width="196px" height="66px" class="d-inline-block align-text-top"></a></div>
+    <div class="logo"><a href="https://tamayocapital.com/"><img src="assets/tamayo-capital.png" alt="" width="196px"
+                height="66px" class="d-inline-block align-text-top"></a></div>
     <!-- NAVIGATION MENU -->
     <ul class="nav-links">
         <!-- USING CHECKBOX HACK -->
@@ -211,12 +212,22 @@ $plantilla= ob_get_clean();
 <body>
     <div class="mensaje">
         <h1>Mensaje Enviado</h1>
-        <p style="padding-top:20px;">Se han enviado con exito tus datos, en breve recibiras una llamada de alguno de nuestros asesores<br> para brindarte mas información</p>
-        <div class="btns">
-            <button>Regresar al simulador</button>
-            <button>Salir</button>
+        <p style="padding-top:20px;">Se han enviado con exito tus datos, en breve recibiras una llamada de alguno de
+            nuestros asesores<br> para brindarte mas información</p>
+    </div>
+    <div style="padding-bottom:70px;">
+        <div class="row">
+            <div class="col-sm-6 btn-sim">
+                <button class="btn-gral">Regresar al Simulador</button>
+            </div>
+            <div class="col-sm-6 btn-salir">
+                <button class="btn-gral">Salir</button>
+            </div>
         </div>
     </div>
+    <footer style="background:#101010; padding:30px; color: #ffffff;">
+    ©2022 Tamayo Capital
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

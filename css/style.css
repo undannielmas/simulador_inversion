@@ -299,7 +299,7 @@ input[type=range]:focus::-ms-fill-upper {
 /*Media Queries para version Mobile */
 
 @media (max-width: 600px) {
-
+  
   .row {
     margin: 0 2px !important;
   }
@@ -360,6 +360,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media (min-width: 1300px) {
+
+
   .contenedor {
     display: none;
   }
@@ -481,7 +483,10 @@ input[type=checkbox]{
  .dropdown li:hover {
   background-color: #4c9e9e;
  }
+
  }
+
+
  a {
   text-decoration: none;
  }
@@ -489,11 +494,45 @@ input[type=checkbox]{
   list-style: none;
  }
 
+
  .mensaje{
   text-align: center;
-  padding: 100px 10px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
  }
 
  .mensaje h1{
  font-size: 70px;
+ font-weight: 600;
  }
+
+ .btn-salir{
+  text-align: left;
+ }
+
+ .btn-sim{
+    text-align: right;
+    padding-bottom: 30px;
+  }
+
+  .btn-gral{
+    border: none;
+    width: 50%;
+    background-color: #afafaf;
+    color: #000000;
+    padding: 16px 3px;
+    border-radius: 3px;
+  }
+
+  @media (max-width: 500px) {
+    .btn-sim{
+      text-align: center;
+     }
+
+     .btn-salir{
+      text-align: center;
+     }
+
+  }
